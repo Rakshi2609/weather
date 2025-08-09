@@ -9,8 +9,6 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -21,7 +19,6 @@
 # next.js
 /.next/
 /out/
-.env
 # production
 /build
 
@@ -43,8 +40,8 @@ yarn-error.log*
 next-env.d.ts
 
 .genkit/*
-.env*
 
 # firebase
 firebase-debug.log
 firestore-debug.log
+config.bat
